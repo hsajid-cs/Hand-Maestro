@@ -191,8 +191,8 @@ class WithPyAudio:
         self.volume = max(self.volume - decrement, 0.0)
 
 
-video  = ['video3.mp4','video3.mp4','video3.mp4']
-audio  = ['test.wav','test.wav','test.wav']
+video  = ['samples/sample1.mp4','samples/sample2.mp4','samples/sample3.mp4']
+audio  = ['samples/sample1.wav','samples/sample2.wav','samples/sample3.wav']
 play_video(video,audio)
 # Close all OpenCV windows
 cv2.destroyAllWindows()
