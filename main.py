@@ -79,7 +79,8 @@ def play_video(video,audio):
         player = WithPyAudio(audio[index])
         start_time = time.time()
         while True:
-            ret,frame = cap.read()
+            if not paused:
+                ret,frame = cap.read()
             ret1,frame1 = cap2.read()
             timestamp += 1
             mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=frame1)
@@ -110,7 +111,7 @@ def play_video(video,audio):
                 result_name[1] = 0
 
             # Next frame if 'n' key is pressed
-            if key == ord('m') or result_name[0] ==  "three" and result_name[1] > 5:
+            if key == ord('m') or result_name[0] ==  "four" and result_name[1] > 5:
                 index += 1
                 index = index % lenght
                 video_path = video[index]
@@ -124,7 +125,7 @@ def play_video(video,audio):
 
 
             # Previous frame if 'b' key is pressed
-            if key == ord('b') or result_name[0] ==  "one" and result_name[1] > 5:
+            if key == ord('b') or result_name[0] ==  "two" and result_name[1] > 5:
                 index -= 1
                 index = index % lenght
                 video_path = video[index]
@@ -135,10 +136,10 @@ def play_video(video,audio):
                 start_time = time.time()
                 result_name[1] = 0
 
-            if key == ord('u') or result_name[0] ==  "four" and result_name[1] > 5:
+            if key == ord('u') or result_name[0] ==  "three" and result_name[1] > 5:
                 print('Here')
                 player.increase_volume(0.1)
-            if key == ord('d') or result_name[0] ==  "two" and result_name[1] > 5:
+            if key == ord('d') or result_name[0] ==  "one" and result_name[1] > 5:
                 print('Here')
                 player.decrease_volume(0.1)
 
