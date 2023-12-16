@@ -98,12 +98,12 @@ def play_video(video,audio):
             key = cv2.waitKey(1)
 
             # Exit if 'q' key is pressed
-            if key == ord('q') or result_name[0] == "four" and result_name[1] > 5:
+            if key == ord('q') or result_name[0] == "ok" and result_name[1] > 5:
                 flag = False
                 break
 
             # Pause/play video if 'p' key is pressed
-            if key == ord('n') or result_name[0] == "two" and result_name[1] > 5:        
+            if key == ord('n') or result_name[0] == "fist" and result_name[1] > 5:        
                 print('hello')
                 paused = not paused
                 time.sleep(0.7)
@@ -135,10 +135,10 @@ def play_video(video,audio):
                 start_time = time.time()
                 result_name[1] = 0
 
-            if key == ord('u') or result_name[0] ==  "ok" and result_name[1] > 5:
+            if key == ord('u') or result_name[0] ==  "four" and result_name[1] > 5:
                 print('Here')
                 player.increase_volume(0.1)
-            if key == ord('d') or result_name[0] ==  "fist" and result_name[1] > 5:
+            if key == ord('d') or result_name[0] ==  "two" and result_name[1] > 5:
                 print('Here')
                 player.decrease_volume(0.1)
 
