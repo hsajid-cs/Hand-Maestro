@@ -14,7 +14,7 @@ FEATURES:
             6. Exist video on showing OK.
 FLOWCHART:
 
-            ![image](https://github.com/17abd12/Hand-mestros/assets/153976994/eac52c43-c24a-43bc-acda-5294b6cf8768)
+            <img width="505" alt="FLOWCHART" src="https://github.com/17abd12/Hand-mestros/assets/153976994/cdebc5d2-548a-4862-bd51-e80cd752a0bb">
             
 IDE USED:
           
