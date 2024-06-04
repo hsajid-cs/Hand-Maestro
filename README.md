@@ -15,7 +15,10 @@ FLOWCHART:
 
             ![image](https://github.com/17abd12/Hand-mestros/assets/153976994/f79ac369-fb07-4b0d-85be-0e41b5f68d80)
 IDE USED:
+          
             VS CODE
+            
 LANGUAGE USED:
+
             PHYTHON
 
