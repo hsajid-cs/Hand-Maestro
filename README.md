@@ -5,6 +5,7 @@ INTRODUCTION:
             By leveraging computer vision techniques and machine learning algorithms, the system interprets 
             user gestures, allowing seamless control of video playback, volume adjustments, and navigation.
 FEATURES:
+
             1. Pause and play video on showing fist.
             2. Play next video on showing  4 fingers.
             3. Play previous video on showing 2 fingers (Index and middle).
