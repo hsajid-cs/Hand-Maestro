@@ -13,8 +13,7 @@ FEATURES:
             5. Decrease volume on showing 1 figure (Index).
             6. Exist video on showing OK.
 FLOWCHART:
-
-           <img width="505" alt="FLOWCHART" src="https://github.com/17abd12/Hand-mestros/assets/153976994/800fccfe-8f16-4df1-9cfc-f3e06928faa1">
+<img width="505" alt="FLOWCHART" src="https://github.com/17abd12/Hand-mestros/assets/153976994/800fccfe-8f16-4df1-9cfc-f3e06928faa1">
 
             
 IDE USED:
