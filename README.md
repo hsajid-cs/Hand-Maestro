@@ -25,3 +25,6 @@ LANGUAGE USED:
 
             PHYTHON
 
+LIBRARIES:
+            
+            MediaPipe, OpenCV
